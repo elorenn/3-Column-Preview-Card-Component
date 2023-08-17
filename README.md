@@ -1,6 +1,6 @@
 # 3-Column Preview Card Component
 
-Checkout out the live site [here](https://elorenn.github.io/Stats-Preview-Card-Component/).
+Checkout out the live site [here](https://elorenn.github.io/3-Column-Preview-Card-Component/).
 
 ![Stats preview card component](assets/design/desktop-design.jpg)
 
