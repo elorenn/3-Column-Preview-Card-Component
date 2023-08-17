@@ -68,9 +68,21 @@ button {
   border-radius: 50px;
   height: 50px;
   width: 145px;
+  cursor: pointer;
 }
 
-.card section {
+button:hover,
+button:focus,
+button:first-of-type:hover,
+button:first-of-type:focus,
+button:last-of-type:hover,
+button:last-of-type:focus {
+  border: 2px solid var(--very-light-gray);
+  background-color: transparent;
+  color: var(--very-light-gray);
+}
+
+section {
   background-color: var(--dark-cyan);
   padding: 48px;
   flex-grow: 1;
@@ -78,24 +90,21 @@ button {
   flex-direction: column;
   justify-content: space-between;
 }
-
-.card section:first-of-type {
-  background-color: var(--bright-orange);
-}
-
-.card section:last-of-type {
-  background-color: var(--very-dark-cyan);
-}
-
-.card section button {
+section button {
   color: var(--dark-cyan);
 }
 
-.card section:first-of-type button {
+section:first-of-type {
+  background-color: var(--bright-orange);
+}
+section:first-of-type button {
   color: var(--bright-orange);
 }
 
-.card section:last-of-type button {
+section:last-of-type {
+  background-color: var(--very-dark-cyan);
+}
+section:last-of-type button {
   color: var(--very-dark-cyan);
 }
 
